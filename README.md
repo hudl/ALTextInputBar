@@ -1,3 +1,6 @@
+# Forks
+Originally forked from https://github.com/AlexLittlejohn/ALTextInputBar. This repo didn't support Swift 4.2 / Xcode 10. It was forked to https://github.com/bclymer/ALTextInputBar and PR'd into the main repo. The main repo never accepted it, so now moving it into the Hudl org.
+
 # ALTextInputBar
 An auto growing text input bar for messaging apps. Written in Swift.  
 ALTextInputBar is designed to solve a few issues that folks usually encounter when building messaging apps.
