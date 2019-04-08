@@ -20,15 +20,15 @@ internal func defaultNumberOfLines() -> CGFloat {
 }
 
 internal extension UIDevice {
-    internal static var isIPad: Bool {
+    static var isIPad: Bool {
         return UIDevice.current.userInterfaceIdiom == UIUserInterfaceIdiom.pad
     }
     
-    internal static var isIPhone: Bool {
+    static var isIPhone: Bool {
         return UIDevice.current.userInterfaceIdiom == UIUserInterfaceIdiom.phone
     }
     
-    internal static var isIPhone4: Bool {
+    static var isIPhone4: Bool {
         return UIDevice.isIPhone && UIScreen.main.bounds.size.height < 568.0
     }
 }
